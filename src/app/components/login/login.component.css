@@ -1,0 +1,87 @@
+/* Asegurar que el fondo cubra toda la pantalla */
+.color1-background {
+  background-color: #3f324d; /* Fondo oscuro */
+  min-height: 100vh; /* Asegura que cubra el 100% de la altura de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Asegura que cubra el 100% del ancho de la pantalla */
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo verde suave para el formulario de login */
+.login-card {
+  background-color: #93c2b1; /* Fondo verde */
+  border: none;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  border-radius: 8px; /* Bordes redondeados para el formulario */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para los textos en el formulario */
+.color1-text {
+  color: #3f324d; /* Color oscuro para el texto */
+  text-align: center; /* Centra el texto */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espacio entre los campos del formulario */
+  width: 100%; /* Asegura que el grupo de formularios ocupe todo el ancho disponible */
+}
+
+.form-control {
+  width: 100%; /* Asegura que los campos de entrada ocupen todo el ancho disponible */
+  padding: 10px;
+  border-radius: 4px; /* Bordes redondeados para los campos de entrada */
+}
+
+.error {
+  color: #de1d6a; /* Color de texto para los mensajes de error */
+  margin-top: 10px; /* Espacio superior para los mensajes de error */
+  text-align: center; /* Centra el mensaje de error */
+}
+
+/* Estilos del botón de login */
+.btn-primary {
+  background-color: #ff995e; /* Color de fondo del botón */
+  border-color: #ff995e; /* Color del borde del botón */
+  padding: 12px 40px; /* Tamaño horizontal del botón */
+  font-size: 16px; /* Tamaño de la fuente del botón */
+  border-radius: 4px; /* Bordes redondeados para el botón */
+  width: 100%; /* Asegura que el botón ocupe todo el ancho disponible dentro del formulario */
+  max-width: 300px; /* Ancho máximo del botón */
+}
+
+.btn-primary:hover {
+  background-color: #de1d6a; /* Color de fondo del botón en hover */
+  border-color: #de1d6a; /* Color del borde del botón en hover */
+  color: #ffeacc; /* Color del texto del botón en hover */
+}
+
+/* Estilos del botón de enlace "Regístrate aquí" */
+.btn-link {
+  color: #ff995e; /* Color del texto del enlace */
+  font-size: 16px; /* Tamaño de la fuente del enlace */
+  padding: 10px; /* Espaciado alrededor del enlace */
+  border: none;
+  background: none; /* Sin fondo para el enlace */
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px; /* Espacio superior para el enlace */
+}
+
+.btn-link:hover {
+  color: #de1d6a; /* Color del texto del enlace en hover */
+  text-decoration: underline; /* Subrayar el texto del enlace en hover */
+}
+
+/* Espaciado */
+.mt-3 {
+  margin-top: 1rem;
+}
